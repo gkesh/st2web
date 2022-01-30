@@ -24,18 +24,18 @@ import store from '@stackstorm/module-store';
 import { Router } from '@stackstorm/module-router';
 
 import Actions from '@stackstorm/app-actions';
+import Code from '@stackstorm/app-code';
 import Triggers from '@stackstorm/app-triggers';
 import History from '@stackstorm/app-history';
 import Rules from '@stackstorm/app-rules';
-import Inquiry from '@stackstorm/app-inquiry';
 import Workflows from '@stackstorm/app-workflows';
 
 const routes = [
   Actions,
+  Code,
   Triggers,
   History,
   Rules,
-  Inquiry,
   Workflows,
 ];
 
