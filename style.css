@@ -38,3 +38,6 @@ html, body, .wrapper {
 .gearclass{
   margin-left: -10px;
 }
+header a._stackstorm_module_menu__side {
+    display: none;
+}
