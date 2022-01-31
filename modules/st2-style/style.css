@@ -24,7 +24,7 @@ main {
   display: flex;
   flex: 1;
 
-  font-family: Roboto, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   
   color: var(--text);
 }
@@ -44,6 +44,6 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #008CEB;
+  color: var(--selected);
   text-decoration: none;
 }
