@@ -41,3 +41,6 @@ html, body, .wrapper {
 header a._stackstorm_module_menu__side {
     display: none;
 }
+header a._stackstorm_module_menu__logo::after {
+    display: none;
+}

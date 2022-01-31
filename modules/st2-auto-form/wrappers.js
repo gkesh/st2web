@@ -153,6 +153,8 @@ export class Description extends React.Component {
       return null;
     }
 
+    spec.description = spec.description.replace('StackStorm', '');
+
     return (
       <p className={cx('st2-auto-form__description', className)}>
         { spec.description }
