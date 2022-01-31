@@ -173,8 +173,10 @@ export default class Menu extends React.Component {
         <div className={style.spacer} />
 
         <div className={style.side}>
-          <label className={style.sideItem}>
-            { user || 'Stanley' }@{ server.name }
+          <label className={"userhost " + style.sideItem}>
+            <span className='userhost--content'>
+              <span className='userhost--name'>{ user || 'Stanley' }</span>&nbsp;{ server.name }
+            </span>
             <i className={cx(style.icon, 'icon-user')} />
             <input type="checkbox" />
             <div className={style.sideDropdown}>
@@ -188,14 +190,6 @@ export default class Menu extends React.Component {
             </div>
           </label>
         </div>
-
-        <a target="_blank" rel="noopener noreferrer" href={this.docsLink} className={style.side}>
-          Docs
-        </a>
-
-        <a target="_blank" rel="noopener noreferrer" href={this.supportLink} className={style.side}>
-          Support
-        </a>
       </header>
     );
   }
