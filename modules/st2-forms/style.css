@@ -91,7 +91,7 @@
     }
 
     &--flat {
-      color: white;
+      color: white !important;
       background-color: transparent;
       box-shadow: none;
 
