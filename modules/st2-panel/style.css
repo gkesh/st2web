@@ -86,7 +86,7 @@
     padding: 10px;
 
     color: white;
-    background-color: var(--grey-darken-1);
+    background-color: var(--selected);
 
     justify-content: space-between;
     flex-flow: row-reverse nowrap;
