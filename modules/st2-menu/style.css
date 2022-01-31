@@ -47,12 +47,6 @@
   background-size: 153px;
 
   align-items: flex-end;
-
-  &:after {
-    content: "Event-driven automation";
-    white-space: nowrap;
-    color: var(--gray-2);
-  }
 }
 
 /* TODO: Remove this ugliness */
