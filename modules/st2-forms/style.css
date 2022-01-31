@@ -104,7 +104,7 @@
       }
 
       &:disabled {
-        color: var(--green-lighten-4);
+        color: var(--green-lighten-4) !important;
         background-color: transparent;
       }
     }
