@@ -37,7 +37,7 @@
     color: #fff;
     border: 0;
     outline: 0;
-    background-color: var(--selected);
+    background-color: var(--selected) !important;
     border-radius: 2px;
 
     &:before,
