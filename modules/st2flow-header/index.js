@@ -65,12 +65,18 @@ export default class Header extends Component<{
         {
           api.token && api.server && (
             <div className={this.style.user} onClick={e => this.handleToggleDropdown(e)} >
-              { api.token.user }@{ url.parse(api.server.api).host }
+              <span className='userhost'>
+                <span className='userhost-user'>
+                  { api.token.user }
+                </span>
+                &nbsp;
+                { url.parse(api.server.api).host }
+              </span>
               <i className={cx('icon-user', this.style.icon)} />
               { showDropdown && (
                 <div className={this.style.dropdown}>
                   <div className={this.style.dropdownBackdrop} onClick={e => this.handleToggleDropdown(e)} />
-                  <div className={this.style.dropdownItem} onClick={e => this.handleLogout(e)}>logout</div>
+                  <div className={this.style.dro0pdownItem} onClick={e => this.handleLogout(e)}>logout</div>
                 </div>
               )}
             </div>

@@ -85,8 +85,8 @@
     height: 38px;
     padding: 10px;
 
-    color: white;
-    background-color: var(--selected);
+    color: var(--text);
+    background-color: var(--gray-lighter);
 
     justify-content: space-between;
     flex-flow: row-reverse nowrap;
@@ -135,7 +135,7 @@
 
       color: white;
       border-radius: 50%;
-      background-color: #008ceb;
+      background-color: var(--selected);
       box-shadow: 0 0 10px #b3b0ba;
 
       a&,
