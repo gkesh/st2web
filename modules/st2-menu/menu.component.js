@@ -173,9 +173,9 @@ export default class Menu extends React.Component {
         <div className={style.spacer} />
 
         <div className={style.side}>
-          <label className={`userhost ${style.sideItem}`}>
-            <span className='userhost--content'>
-              <span className='userhost--name'>{ user || 'Stanley' }</span>&nbsp;{ server.name }
+          <label className={`${style.side}userhost ${style.sideItem}`}>
+            <span className={`${style.side}userhost--content`}>
+              <span className={`${style.side}userhost--name`}>{ user || 'Stanley' }</span>&nbsp;{ server.name }
             </span>
             <i className={cx(style.icon, 'icon-user')} />
             <input type="checkbox" />
