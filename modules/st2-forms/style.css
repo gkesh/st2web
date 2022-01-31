@@ -37,7 +37,7 @@
     color: #fff;
     border: 0;
     outline: 0;
-    background-color: #008ceb;
+    background-color: var(--selected);
     border-radius: 2px;
 
     &:before,
@@ -72,11 +72,11 @@
     }
 
     &:focus {
-      background-color: #0076c6;
+      background-color: var(--green-darken-1);
     }
 
     &:active {
-      background-color: #0076c6;
+      background-color: var(--green-darken-1);
     }
 
     &--small {
@@ -91,7 +91,7 @@
     }
 
     &&--flat {
-      color: #008ceb;
+      color: var(--selected);
       background-color: transparent;
       box-shadow: none;
 
@@ -262,7 +262,7 @@
       }
       
       &:checked + label {
-        background: #008ceb;
+        background: var(--selected);
       }
     }
 
