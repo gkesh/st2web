@@ -173,7 +173,7 @@ export default class Menu extends React.Component {
         <div className={style.spacer} />
 
         <div className={style.side}>
-          <label className={"userhost " + style.sideItem}>
+          <label className={`userhost ${style.sideItem}`}>
             <span className='userhost--content'>
               <span className='userhost--name'>{ user || 'Stanley' }</span>&nbsp;{ server.name }
             </span>
