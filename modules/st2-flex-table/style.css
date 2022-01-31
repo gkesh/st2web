@@ -1,3 +1,5 @@
+@import "@stackstorm/st2-style/colors.css";
+
 .st2-flex-table {
   position: relative;
 
@@ -355,7 +357,7 @@
   }
 
   &--active {
-    background-color: #008CEB;
+    background-color: var(--selected);
 
     color: white;
 

@@ -43,7 +43,7 @@ limitations under the License.
   background-image: url(../../img/logo.svg);
   background-repeat: no-repeat;
   background-size: 153px;
-align-items: flex-end;
+  align-items: flex-end;
 
   &:after {
     content: "Event-driven automation";

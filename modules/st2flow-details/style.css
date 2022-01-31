@@ -28,8 +28,8 @@ limitations under the License.
 }
 
 .toolbar {
-  background-color: #4b4b4f;
-  color: #bbb;
+  background-color: var(--gray-lighter);
+  color: var(--text);
   display: flex;
   align-items: center;
  /* For collapse button */
