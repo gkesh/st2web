@@ -190,19 +190,19 @@
   &-item input[type=checkbox]:checked ~ &-dropdown {
     display: block;
   }
-}
 
-.userhost {
-  &--content {
-    opacity: 0;
-    transition: opacity 0.25s linear;
-  }
-  &--name {
-    color: var(--selected);
-    font-weight: 800;
-  }
-
-  &:hover &--content {
-    opacity: 1;
+  &-userhost {
+    &--content {
+      opacity: 0;
+      transition: opacity 0.25s linear;
+    }
+    &--name {
+      color: var(--selected);
+      font-weight: 800;
+    }
+  
+    &:hover &--content {
+      opacity: 1;
+    }
   }
 }
