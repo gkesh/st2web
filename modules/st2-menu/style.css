@@ -193,6 +193,8 @@
 
   &-userhost {
     &--content {
+      margin-right: 0.5rem;
+      text-transform: uppercase;
       opacity: 0;
       transition: opacity 0.25s linear;
     }
