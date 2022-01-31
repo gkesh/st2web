@@ -90,8 +90,8 @@
       font-weight: bold;
     }
 
-    &&--flat {
-      color: var(--selected);
+    &--flat {
+      color: white;
       background-color: transparent;
       box-shadow: none;
 
@@ -100,21 +100,21 @@
       }
 
       &:active {
-        background-color: #cfe9fb;
+        background-color: var(--green-lighten-3);
       }
 
       &:disabled {
-        color: #b3b0ba;
+        color: var(--green-lighten-4);
         background-color: transparent;
       }
     }
 
-    &--flat&--disabled {
-      color: #b3b0ba;
+    &--flat, &--disabled {
+      color: var(--green-lighten-4);
       background-color: transparent;
     }
 
-    &--flat& {
+    &--flat {
       &--red {
         color: #E63544;
 
